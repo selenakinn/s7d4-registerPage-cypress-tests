@@ -1,6 +1,5 @@
 import { errorMessages } from "../../src/components/Register";
 describe('Register Page', () => {
-
   describe('Error Messages', () => {
     it('name input throws error for 2 chars', () => {
       cy.visit('http://localhost:5173/');
