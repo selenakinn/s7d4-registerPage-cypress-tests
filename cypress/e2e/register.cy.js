@@ -47,5 +47,4 @@ describe('Register Page', () => {
       cy.get('[data-cy="response-message"]').should('be visible');
     })
   });
-
 });
